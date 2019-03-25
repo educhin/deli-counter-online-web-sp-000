@@ -10,3 +10,13 @@ def line(line)
     puts "The line is currently: #{newline.join(" ")}"
   end
 end
+
+def take_a_number(line, name)
+  if line.size == 0
+    line.push(name)
+    puts "Welcome, #{name}. You are number #{line.count} in line."
+  else
+    line.push(name)
+    puts "Welcome, #{name}. You are number #{line.count} in line."
+  end
+end
