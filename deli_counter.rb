@@ -7,6 +7,6 @@ def line(line)
     puts "The line is currently empty."
   else
     newline = line.collect{|num| "#{num.index + 1}. num"}
-    puts newline.join(" ")
+    puts "The line is currently: #{newline.join(" ")}""
   end
 end
